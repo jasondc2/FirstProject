@@ -23,7 +23,7 @@
         android:id="@+id/txtChapter" />
 
     <TextView
-        android:text="The Scripture You Entered Is:"
+        android:text="Your Favorite Scripture Is:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="86dp"
