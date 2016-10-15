@@ -23,7 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="Book"
         android:ems="10"
         android:layout_marginTop="56dp"
         android:id="@+id/book"
@@ -35,7 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="Chapter"
         android:ems="10"
         android:layout_below="@+id/book"
         android:layout_alignParentRight="true"
@@ -47,7 +45,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="Verse"
         android:ems="10"
         android:layout_marginTop="40dp"
         android:id="@+id/verse"
@@ -63,5 +60,35 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="76dp" />
+
+    <TextView
+        android:text="Chapter:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/chapter"
+        android:layout_alignBottom="@+id/chapter"
+        android:layout_toLeftOf="@+id/Nxtbutton"
+        android:layout_toStartOf="@+id/Nxtbutton" />
+
+    <TextView
+        android:text="Verse:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/verse"
+        android:layout_alignBottom="@+id/verse"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:text="Book:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/book"
+        android:layout_alignBottom="@+id/book"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
 
 </RelativeLayout>
